@@ -1,4 +1,5 @@
 .App {
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -35,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.photo-viewer {
+  margin-top: 100px;
 }
