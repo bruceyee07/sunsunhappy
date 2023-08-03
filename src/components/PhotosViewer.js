@@ -17,12 +17,47 @@ import o from "../../src/static/15.jpeg";
 import p from "../../src/static/16.jpeg";
 import q from "../../src/static/17.jpeg";
 import r from "../../src/static/18.jpeg";
+import s from "../../src/static/19.jpeg";
+import t from "../../src/static/20.jpeg";
+import u from "../../src/static/21.jpeg";
+import v from "../../src/static/22.jpeg";
+import w from "../../src/static/23.jpeg";
+import x from "../../src/static/24.jpeg";
+import y from "../../src/static/25.jpeg";
+import z from "../../src/static/25.jpeg";
 
 function PhotoViewer() {
   return (
     <div className="photo-viewer">
       <Image.PreviewGroup
-        items={[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r]}
+        items={[
+          a,
+          b,
+          c,
+          d,
+          e,
+          f,
+          g,
+          h,
+          i,
+          j,
+          k,
+          l,
+          m,
+          n,
+          o,
+          p,
+          q,
+          r,
+          s,
+          t,
+          u,
+          v,
+          w,
+          x,
+          y,
+          z,
+        ]}
       >
         <Image width={400} src={a} />
       </Image.PreviewGroup>
